@@ -7,7 +7,7 @@
 // concatenated. So __enzyme_autodiff_Double_FloatDouble would descrive the derivative function
 // for a function with the prototype float f(float, double)
 
-float __enzyme_autodiff_Float_FloatFloat(
+extern float __enzyme_autodiff_Float_FloatFloat(
                 float(*)(float*, float*), // function to differentiate: it
                                           // accepts two floats as input and
                                           // returns a float.
@@ -19,3 +19,6 @@ float __enzyme_autodiff_Float_FloatFloat(
                                           // second parameter.
 
 
+extern double __enzyme_autodiff(void*, double);
+
+void run();    

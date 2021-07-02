@@ -1,3 +1,5 @@
+import enzyme
+
 // This is our enzyme differentiable function. Behold the awesomeness!
 public func awesome(a: Float, b: Float) -> Float {
     a * a + b * b * b

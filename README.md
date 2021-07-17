@@ -1,7 +1,5 @@
 # EnzymeTestPackage
 
-A description of this package.
-
 
 ```
 docker pull ghcr.io/tgymnich/swift-5.4.2-plugin:latest
